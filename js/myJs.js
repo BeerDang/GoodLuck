@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hello Bé Thảo nhaaa ❤️💛💚!',
-        text: 'Anh có chuyện muốn nói với bé nè !!!',
+        title: 'Hello Bạn gì đó nhaaa ❤️💛💚!',
+        text: 'Mình có chuyện muốn nói với bạn nè !!!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Phải đạt điểm cao :3 ";
+    var text = " Phải đạt điểm thật là cao :3 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Có gì nói với anh không haha :vvvv',
+        title: 'Có gì nói với mình không nè haha :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -105,7 +105,7 @@ $('#yes').click(function() {
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
-              left top
+              middle top
               no-repeat
             `,
   
@@ -119,13 +119,13 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'IB anh nè <3',
+                confirmButtonText: 'IB mình nè <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Anh biết mà phải vậy chứ ',
-                text: "Hẹn bé hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho anh đi nàoooo",
+                title: 'Mình biết mà phải vậy chứ ',
+                text: "Hẹn bạn hôm nào đi chơi nè nêu đống ý :v thì còn chờ gì nữa mà ko inbox cho mình đi nàoooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://m.me/dthinh2';
+                    window.location = 'http://m.me/ice.bear.8803';
                   }
             })
         }
